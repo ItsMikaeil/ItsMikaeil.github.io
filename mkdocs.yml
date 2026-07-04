@@ -50,14 +50,14 @@ nav:
   - Home: index.md
   - Machine Learning: 
       - Overview: ml/intro.md
-  - Deep Learning: ml/dl_notes.md
+  - Deep Learning: DeepLearning.md
   - Mathematice: Mathematic Note.md
-  - Statistics: Statistics.md
-      - Descriptive Statistics.md
-      - Inferential Statistics.md
-  - Linear Algebra: Linear Algebra.md
-  - Calculus: Calculus.md
-  - Probability: Probability.md
+      - Statistics: Math/Statistics.md
+        - Descriptive Statistics.md
+        - Inferential Statistics.md
+      - Linear Algebra: Math/Linear Algebra.md
+      - Calculus: Math/Calculus.md
+      - Probability: Math/Probability.md
   - Business: Business.md
   - Mental Models: mental_models.md
   - Communication: Communication.md
