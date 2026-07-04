@@ -58,7 +58,8 @@ nav:
       - Probability: Math/Probability.md
   - Business:
     - Business: Business/Business.md
-    - Mental Models: Business/Mental_Models.md
-  - Communication: Communication.md
+    - Communication: Business/Communication.md
+  - Mental Models: Mental_Models.md
+  
 
 # تنظیمات ریاضی (MathJax)
