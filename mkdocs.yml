@@ -53,6 +53,8 @@ nav:
   - Deep Learning: ml/dl_notes.md
   - Mathematice: Mathematic Note.md
   - Statistics: Statistics.md
+      - Descriptive Statistics.md
+      - Inferential Statistics.md
   - Linear Algebra: Linear Algebra.md
   - Calculus: Calculus.md
   - Probability: Probability.md
