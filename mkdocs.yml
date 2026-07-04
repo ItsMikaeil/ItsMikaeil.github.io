@@ -19,6 +19,7 @@ nav:
   - Python: python.md
   - Statistics: statistics.md
   - AI Engineering: ai.md
+  - Machine Learning: ML.md
   - Books: books.md
 
 markdown_extensions:
