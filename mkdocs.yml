@@ -48,16 +48,17 @@ markdown_extensions:
 # ساختار منوی سایت (هر فایل جدیدی ساختی اینجا اضافه کن)
 nav:
   - Home: index.md
-  - Machine Learning: 
-      - Overview: ml/intro.md
-  - Deep Learning: Dl-Note.md
+  - Machine Learning: ml-notes.md
+  - Deep Learning: DL-Notes.md
+  - AI-Engineer: AI-Engineer.md
   - Mathematice:
       - Statistics: Math/Statistics.md
       - Linear Algebra: Math/Linear Algebra.md
       - Calculus: Math/Calculus.md
       - Probability: Math/Probability.md
-  - Business: Business.md
-  - Mental Models: mental_models.md
+  - Business:
+    - Business: Business.md
+    - Mental Models: Mental_Models.md
   - Communication: Communication.md
 
 # تنظیمات ریاضی (MathJax)
