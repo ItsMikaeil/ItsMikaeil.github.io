@@ -6,35 +6,32 @@ site_url: https://itsmikaeil.github.io/
 # تنظیمات تم متریال
 theme:
   name: material
-  language: en
+  language: en  # اگر می‌خواهی منوها راست‌چین شود روی fa بگذار
   font:
     text: Roboto
-    code: Roboto Mono
+    
   palette:
-    # حالت روشن (با رنگ پس‌زمینه تمیز و پیش‌فرض)
+    # حالت روشن
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
-      accent: red
+      primary: teal
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # حالت تاریک
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: red
+      primary: teal
+      accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.sections    # بخش‌بندی و گروه‌بندی منوها
-    - navigation.expand      # باز بودن پیش‌فرض زیرشاخه‌ها برای حس کتابی
-    - navigation.indexes     # قابلیت کلیک روی سربرگ بخش‌ها
-    - toc.follow             # حرکت فهرست سمت راست همگام با اسکرول صفحه
-    - navigation.top         # دکمه اسکرول به بالا
-    - search.suggest         # پیشنهاد عبارات در جستجو
-    - content.code.copy      # دکمه کپی کدها
+    - navigation.tabs # منوی بالای صفحه
+    - navigation.sections # بخش‌بندی منو
+    - search.suggest # پیشنهاد در جستجو
+    - content.code.copy # دکمه کپی کدها
 
 # اکستنشن‌های مهم برای فرمول ریاضی و کد زدن
 markdown_extensions:
@@ -45,26 +42,22 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  - admonition               # برای باکس‌های "نکته" و "هشدار"
+  - admonition # برای باکس‌های "نکته" و "هشدار"
   - pymdownx.details
 
-# ساختار منوی سایت (حتماً مطمئن شو این فایل‌ها در پوشه docs ساخته شده‌اند)
+# ساختار منوی سایت (هر فایل جدیدی ساختی اینجا اضافه کن)
 nav:
   - Home: index.md
   - Machine Learning: 
       - Overview: ml/intro.md
       - Deep Learning: ml/dl_notes.md
   - Mental Models: mental_models.md
-  - Mathematics: Mathematic Note.md
+  - Mathematice: Mathematic Note.md
   - Part I. Background:
-      - 1. Why do we learn statistics?: background/intro.md
-      - 2. A brief introduction: background/design.md
+    - 1. Why do we learn statistics?: background/intro.md
+    - 2. A brief introduction: background/design.md
   - Part II. An Introduction to Python:
-      - 3. Getting Started: python/start.md
-      - 4. More Concepts: python/concepts.md
+    - 3. Getting Started: python/start.md
+    - 4. More Concepts: python/concepts.md
 
-# اسکریپت‌های لازم برای اجرای فرمول‌های ریاضی (MathJax امن بدون Polyfill)
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-
+# تنظیمات ریاضی (MathJax)
