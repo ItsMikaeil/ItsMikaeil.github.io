@@ -50,13 +50,13 @@ nav:
   - Home: index.md
   - Machine Learning: 
       - Overview: ml/intro.md
-      - Deep Learning: ml/dl_notes.md
-  - Mental Models: mental_models.md
+  - Deep Learning: ml/dl_notes.md
   - Mathematice: Mathematic Note.md
   - Statistics: Statistics.md
   - Linear Algebra: Linear Algebra.md
   - Calculus: Calculus.md
   - Probability: Probability.md
   - Business: Business.md
+  - Mental Models: mental_models.md
 
 # تنظیمات ریاضی (MathJax)
