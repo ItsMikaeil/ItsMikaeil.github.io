@@ -21,7 +21,7 @@ nav:
   - AI Engineering: ai.md
   - Machine Learning: ML.md
   - Books: books.md
-  - یادداشت‌های ML: ml-notes.md
+  - ML یادداشت‌های : ml-notes.md
 
 markdown_extensions:
   - admonition
