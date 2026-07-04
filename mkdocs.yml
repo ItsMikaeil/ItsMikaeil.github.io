@@ -39,7 +39,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - admonition # برای باکس‌های "نکته" و "هشدار"
-  - details
+  - pymdownx.details
 
 # ساختار منوی سایت (هر فایل جدیدی ساختی اینجا اضافه کن)
 nav:
