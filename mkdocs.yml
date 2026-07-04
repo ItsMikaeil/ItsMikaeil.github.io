@@ -53,11 +53,10 @@ nav:
       - Deep Learning: ml/dl_notes.md
   - Mental Models: mental_models.md
   - Mathematice: Mathematic Note.md
-  - Part I. Background:
-    - 1. Why do we learn statistics?: background/intro.md
-    - 2. A brief introduction: background/design.md
-  - Part II. An Introduction to Python:
-    - 3. Getting Started: python/start.md
-    - 4. More Concepts: python/concepts.md
+  - Statistics: Statistics.md
+  - Linear Algebra: Linear Algebra.md
+  - Calculus: Calculus.md
+  - Probability: Probability.md
+  - Business: Business.md
 
 # تنظیمات ریاضی (MathJax)
