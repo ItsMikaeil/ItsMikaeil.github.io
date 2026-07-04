@@ -50,11 +50,9 @@ nav:
   - Home: index.md
   - Machine Learning: 
       - Overview: ml/intro.md
-  - Deep Learning: DeepLearning.md
-  - Mathematice: Mathematic Note.md
+  - Deep Learning: Dl-Note.md
+  - Mathematice:
       - Statistics: Math/Statistics.md
-        - Descriptive Statistics.md
-        - Inferential Statistics.md
       - Linear Algebra: Math/Linear Algebra.md
       - Calculus: Math/Calculus.md
       - Probability: Math/Probability.md
