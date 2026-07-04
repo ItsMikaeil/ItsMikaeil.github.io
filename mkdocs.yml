@@ -1,6 +1,7 @@
 site_name: ItsMichael's Lab
 site_description: ML, MLOps, and Mental Models
 site_author: Mikaeil
+site_url: https://itsmikaeil.github.io/
 
 # تنظیمات تم متریال
 theme:
