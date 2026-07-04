@@ -7,5 +7,8 @@
 - Statistics
 - Mathematics
 - Machine Learning
+- Mental Models
+- Communication
+- Business
 
 ساخته شده است.
