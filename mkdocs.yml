@@ -48,6 +48,7 @@ nav:
       - Overview: ml/intro.md
       - Deep Learning: ml/dl_notes.md
   - Mental Models: mental_models.md
+  - mathematice: Mathematic Note.md
 
 # تنظیمات ریاضی (MathJax)
 extra_javascript:
