@@ -1,4 +1,4 @@
-site_name: ItsMikaeil's Lab
+site_name: ItsMichael's Lab
 site_description: ML, MLOps, and Mental Models
 site_author: Mikaeil
 
@@ -48,7 +48,7 @@ nav:
       - Overview: ml/intro.md
       - Deep Learning: ml/dl_notes.md
   - Mental Models: mental_models.md
-  - mathematice: Mathematic Note.md
+  - Mathematice: Mathematic Note.md
 
 # تنظیمات ریاضی (MathJax)
 extra_javascript:
